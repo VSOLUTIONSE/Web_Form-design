@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+	<div class="SignUp-wrap">
+		<form action="" class="form">
+			<img src="./img/wccflogo.jpg" alt="logo">
+			<h3>Sign Up</h3>
+			<div class="input-group">
+				<input type="text" name="fullName" id="fullName" required>
+				<label for="fullName">Enter Full Name</label>
+			</div>
+			<div class="input-group">
+				<input type="password" name="password" id="password"  required>
+				<label  for="password">Enter Email</label>
+			</div>
+			<div class="input-group">
+				<input type="password" name="password" id="password"  required>
+				<label for="password">Enter Password</label>
+			</div>
+			<div class="input-group">
+				<input type="password" name="cpassword" id="cpassword"  required>
+				<label for="cpassword">Confirm Password</label>
+			</div>
+			
+			<div class="Radio">
+				<div class="line">
+					<label for="male" class="custom-rad">
+						<input type="radio" name="Gender" id="male" class="radio" >
+						<span class="checkmark"></span>
+					</label> <p>Male</p>
+				</div><br>
+				<div class="line">
+					<label for="female" class="custom-rad">
+						<input type="radio" name="Gender" id="female" class="radio">
+						<span class="checkmark"></span>
+					</label> <p>Female</p>
+				</div>
+				
+			</div>
+			<div class="formEnd">
+				<button type="submit">Sign Up</button>
+				<div class="links">
+					<a href="#SignIn" class="link">Sign In</a>
+				    <a href="#forgot-pw" class="link">Forgot Password?</a>
+				</div>
+			</div>
+		</form>
+
+
+		<div id="SignIn">
+			<form action="" class="form">
+				<a href="#" class="close">&times;</a>
+				<h3>Sign In</h3>
+				<div class="input-group">
+					<input type="text" name="user" id="user" required>
+					<label for="username">User Name</label>
+                <div>
+				<div class="input-group">	
+					<input type="email" name="email" id="email" required>
+					<label for="email">Email</label>
+				</div>
+				<div class="input-group">
+					<input type="password" name="password" id="reset" required>
+					<label for="password">Password</label>
+				</div>
+				<div class="formEnd">
+					<button type="submit">Sign In</button>
+				</div>
+			</form>
+		</div>
+	</div>
+</body>
+</html>
